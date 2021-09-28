@@ -36,7 +36,7 @@ $window.on("load", (function() {
     $("#onyx-preloader").addClass("loaded");
 
         if ($("#onyx-preloader").hasClass("loaded")) {
-            $("#onyx-preloader").delay(900).queue(function () {
+            $("#onyx-preloader").delay(1500).queue(function () {
                 $(this).remove();
             });
         }
