@@ -369,6 +369,10 @@ a, button {
   text-shadow: none;
 }
 
+.production{
+  font-size: 30px;
+  color: black;
+}
 /*-------------------------
             Dark
 -------------------------*/
